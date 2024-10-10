@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASVL Équipe Sénior</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: white;
+        }
+
+        .navbar {
+            background-color: #8a1916;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+
+        .navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .background-section {
+            position: relative;
+            text-align: center;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .background-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('fond.png') no-repeat center center;
+            background-size: cover;
+            opacity: 0.5; /* Adjust the transparency */
+            z-index: -1;
+        }
+
+        .welcome {
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+            color: black;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 28px;
+            font-weight: bold;
+            border-bottom: 2px solid #8a1916;
+        }
+
+        .welcome small {
+            display: block;
+            font-size: 16px;
+            color: #8a1916;
+            margin-top: 10px;
+        }
+
+        .logo {
+            display: block;
+            margin: 20px auto;
+            max-width: 400px;
+        }
+
+        .contact-bar {
+            background-color: #8a1916;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .articles {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+        }
+
+        .articles h2 {
+            color: #8a1916;
+        }
+
+        .articles h3 {
+            color: #8a1916;
+        }
+
+        .articles p {
+            font-size: 16px; /* Réduit la taille de la police */
+            line-height: 1.6;
+            color: black;
+        }
+
+        .contact-form {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #8a1916;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-form button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#informations">Informations</a>
+        <a href="#calendrier">Calendrier</a>
+        <a href="#resultats">Résultats</a>
+        <a href="#actualites">Actualités</a>
+    </div>
+
+    <div class="background-section">
+        <div class="welcome">
+            Bienvenue sur le site web de l'AS Vieux Lille équipe sénior
+            <small>Réalisé par un joueur de l'équipe (le meilleur)</small>
+        </div>
+
+        <img src="logo.jfif" alt="Logo ASVL" class="logo">
+
+        <div class="articles">
+            <h2>Derniers Articles</h2>
+            <article>
+                <h3>Retour sur un Déplacement Électrisant à Ennequin !</h3>
+                <p>Le dernier match entre l’AS Vieux Lille et Ennequin a pris une tournure inattendue, laissant les spectateurs et les journalistes perplexes. Alors que l’ASVL menait tranquillement 2-0, tout semblait sous contrôle pour l’équipe visiteuse. Cependant, la situation a rapidement dégénéré lors des dernières minutes de jeu.
+
+À la 90e minute, une action controversée a eu lieu sur le terrain. Le numéro 10 d’Ennequin a tenté de s’imposer sur notre numéro 11, Abraham, mais ce dernier a réagi en le projetant au sol dans une tentative de défense. Ce geste a provoqué une réaction en chaîne : une bagarre générale a éclaté, impliquant de nombreux joueurs des deux équipes. Parmi eux, le numéro 5 d’Ennequin, surnommé Dicklan, a particulièrement attiré l’attention, mettant le feu aux poudres avec ses provocations.
+
+Les tensions sont montées d’un cran alors que des insultes fusaient de toutes parts, et l’arbitre a dû intervenir rapidement. En conséquence, il a brandi trois cartons rouges pour Ennequin et deux pour l’AS Vieux Lille, témoignant de la gravité de la situation. Dans un geste de fermeté, l’arbitre a pris la décision de mettre fin à la rencontre prématurément, laissant les joueurs et les supporters sur leur faim.
+
+À présent, une commission examinera les incidents survenus lors de ce match houleux. Les décisions concernant les suspensions sont attendues avec impatience, et on espère que le gros Dicklan ne fera une crise de cholestérol avant la sanction officielle.
+
+Ce match restera gravé dans les mémoires, non seulement pour le score, mais aussi pour la montée de tensions qui a mis à l'épreuve la sportivité des deux équipes. L’AS Vieux Lille, bien que frustré par ce dénouement, continuera à se battre pour ses objectifs dans cette saison compétitive. Les prochaines rencontres s’annoncent tout aussi passionnantes et peut-être un peu moins tumultueuses.</p>
+            </article>
+            <article>
+                <h3>Rénovation du Stade Adolphe Max : Une Nouvelle Ère pour l'ASVL</h3>
+                <p>Après de longs mois de travaux, la rénovation du stade Adolphe Max touche enfin à sa fin, promettant un tout nouvel environnement pour les joueurs et les supporters de l'AS Vieux Lille. Cette transformation ambitieuse vise à moderniser les installations et à améliorer l'expérience des spectateurs, tout en préservant l'esprit du lieu.
+
+Pendant la période des travaux, les joueurs de l'ASVL ont dû s'adapter et s'entraîner au stade de Bois Blanc, mais leur impatience grandit à l'approche de la réouverture du stade emblématique. Dimanche prochain, le 13 octobre 2024, l'ASVL sénior disputera un match amical pour marquer l'inauguration du stade rénové. Ce sera l'occasion pour les supporters de découvrir les nouvelles installations et de soutenir leur équipe dans un cadre modernisé.
+
+La direction de l'ASVL invite tous les fans à venir célébrer cette nouvelle étape dans l'histoire du club. Ne manquez pas cet événement marquant qui promet d'être rempli d'émotions et d'excitation !</p>
+            </article>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contactez-nous</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <div class="contact-bar">
+        Contact | Réalisé par Baptiste Dutoit
+    </div>
+</body>
+</html>
